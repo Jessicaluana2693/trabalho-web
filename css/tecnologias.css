@@ -1,0 +1,28 @@
+.nossasTecs{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: blueviolet;
+}
+.tecs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+h3{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+h3, h4{
+    margin-left: 30px;
+    color: hotpink;
+}
+
+@media(max-width: 600px) {
+    .nossasTecs{
+        font-size: 20px;
+    }
+}

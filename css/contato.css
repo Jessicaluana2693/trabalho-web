@@ -1,0 +1,32 @@
+.contato{
+    width: 100%;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+input{
+    height: 30px;
+    border-radius: 7px;
+    color: blueviolet;
+}
+input:hover{
+    background-color: pink;
+}
+label{
+    color: hotpink;
+}
+#area-texto{
+    height: 100px;
+}
+
+@media(max-width: 600px) {
+    form{
+        margin-left: 35px;
+        font-size: 20px;
+    }
+}

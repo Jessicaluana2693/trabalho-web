@@ -1,0 +1,70 @@
+*, *::after, *::before { 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: timeburnerregular, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    list-style: none;
+}
+a:link,a:visited
+{ 
+    text-decoration:none;
+    color: aqua;
+}
+a:hover { 
+	color: hotpink;
+	}
+.topo a:hover{
+    color: #fff;
+}  
+.pagina {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lavenderblush;
+}
+
+ footer {
+    border-top: 1px solid goldenrod;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: hotpink;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+aside { width: 300px; }
+
+@media (max-width: 700px) {
+    aside {
+        width: 50px;
+    }
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.caixa3, .caixa4, .caixa5 {
+    border: 1px solid palevioletred;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.caixa3{ height: 100%; width: 85%; }
+.caixa3:hover, .caixa4:hover, .caixa5:hover{
+    transform: scale(1.3);
+}
+.caixa4 { height: 100%; width: 85%; }
+.caixa5 { height: 100%; width: 85%; }
